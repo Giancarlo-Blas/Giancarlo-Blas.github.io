@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/src/main.css">
     <style>
-        .styled-figma-button {
-            text-decoration: none;
-            color: white;
-            background-color: green;
-            border-radius: 10px;
-            padding: 1rem;
+        #intro {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 25px;
         }
-        .styled-figma-button:hover {
-            background-color: darkgreen;
+
+        #projects {
+            height: 100vh;
         }
     </style>
 </head>
+
 <body>
     <header>
-        <h1>Giancarlo J Blas Marte | Portfolio</h1>
+        <h1>Portfolio Website</h1>
     </header>
-    <a href="https://www.figma.com/proto/8jq0fgtRLVxWSKdx3wj0Pq/Smart-Home-Dashboard?node-id=8-132&t=qyQ7GWfjYzp38Ozy-1" class="styled-figma-button">Link To Figma Files</a>
+    <!-- <a href="https://www.figma.com/proto/8jq0fgtRLVxWSKdx3wj0Pq/Smart-Home-Dashboard?node-id=8-132&t=qyQ7GWfjYzp38Ozy-1"
+        class="styled-figma-button">Link To Figma Files</a> -->
+    <section id="intro" style="background-color: rgb(166, 166, 166);">
+        <div class="flex-row">
+            <img class="profile-picture" width="300vw" src="/static/giancarlo.jpg" alt="">
+            <p>Hi, my name is Giancarlo J Blas Marte</p>
+        </div>
+    </section>
+    <section id="intro" style="background-color: rgb(255, 200, 0);">
 
-    <!-- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/8jq0fgtRLVxWSKdx3wj0Pq/Smart-Home-Dashboard?node-id=8-132&embed-host=share" allowfullscreen></iframe> -->
+    </section>
 </body>
+
 </html>
