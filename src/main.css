@@ -76,3 +76,14 @@ header {
     /* TODO */
 }
 
+/* typed.js */
+
+#epithets {
+    font-size: x-large;
+    text-align: center;
+}
+
+.typed-cursor {
+    font-size: x-large;
+    color: white;
+}
