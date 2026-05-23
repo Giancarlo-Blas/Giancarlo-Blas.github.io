@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/src/main.css">
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
 </head>
 
 <body>
@@ -17,7 +18,16 @@
             <img class="profile-picture" width="300vw" src="/static/deskphoto.jpg" alt="">
             <div>
                 <h1 class="text-center text-primary">Giancarlo J. Blas Marte</h1>
-                <h2 class="text-center text-secondary">UX/UI Design Major</h2>
+                <div id="typed-strings">
+                  <h2 class="text-primary">UX/UI Designer</h2>
+                  <h2 class="text-primary">Content Creator</h2>
+                </div>
+                <div class="text-center text-secondary" style="text-align: center;">
+                    <span id="epithets"></span>
+                </div>
+                <div class="flex-row">
+                    <h2 class="text-secondary" style="min-height: 2rem;"></h2>
+                </div>
             </div>
             <div class="transparent-card">
                 <p class="text-center text-primary">
@@ -32,6 +42,20 @@
     <footer>
 
     </footer> -->
+    <script>
+        // Initializes auto-typing in intro section
+        // https://github.com/mattboldt/typed.js/
+        var typed = new Typed("#epithets", {
+            stringsElement: '#typed-strings',
+            typeSpeed: 50,
+            loop: true,
+            backSpeed: 50,
+            backDelay: 2000,
+            showCursor: true,
+            cursorChar: '|',
+            autoInsertCss: true,
+        })
+    </script>
 </body>
 
 </html>
